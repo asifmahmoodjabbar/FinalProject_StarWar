@@ -1,0 +1,111 @@
+html{
+
+    font-size: 10px;
+    background-image: url(../images/bgImage2.jpg);
+    background-size: cover;
+    font-family: 'Zen Dots', 'Gill Sans', sans-serif;
+}
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+#canvas {
+    display: none;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 1.5rem;
+    border: 1.5px solid white;
+    animation: fade-in 0.5s ease-in;
+
+}
+
+#intro {
+
+    color: rgb(8, 8, 8);
+    
+}
+
+#start {
+
+    width: 10rem;
+    height: 5rem;
+    background-color:rgb(27, 7, 7);
+    border: none;
+    border-radius: 30px;
+    margin: 5rem;
+    font-size: 2rem;
+    color: rgb(228, 9, 9);
+
+}
+
+#start:hover{
+
+    background: green;
+    color: black;
+    border: 2px white solid;
+
+}
+
+
+
+section{
+
+    display: inline-block;
+    background-color: #cfb62691;;
+    text-align: center;
+    border-radius: 3px;
+    padding: 2rem;
+    margin-top: 4rem;
+
+
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+
+@keyframes fade-in {
+    0%{ 
+        opacity: 0%;
+    }
+    100%{ 
+        opacity: 100%;
+    }
+}
+
+.buttons{
+    text-align: center;
+}
+
+
+.btn-primary {
+    display: none;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 100%;    
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+.btn-primary:hover{
+
+    background-color: white;
+    color: black;
+}
