@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarWarGame</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap"
+    />
+  </head>
+  <body>
+    // Button creation for StarWarGame
+    <div class="buttons">
+      <button class="btnOne btn-primary">Pause</button>
+      <button class="btnTwo btn-primary">Restart</button>
+    </div>
+    // Intor of the game
+    <div class="wrapper">
+      <section id="intro">
+        <h1>Welomce Warrior!</h1>
+        <h2>Lets save the plannet</h2>
+        <h2>Shoot down all the asteroids to win the game</h2>
+        <h2>Goodluck Commander.</h2>
+        <button id="start">start</button>
+      </section>
+    </div>
+    // Setting the canvas
+    <div id="no-cursor">
+      <canvas id="canvas"></canvas>
+    </div>
+    // Link to the Js files
+    <script src="./javaScript/asteroids.js"></script>
+    <script src="./javaScript/bullet.js"></script>
+    <script src="./javaScript/index.js"></script>
+    <script src="./javaScript/stars.js"></script>
+  </body>
+</html>
